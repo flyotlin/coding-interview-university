@@ -55,29 +55,33 @@
 <div align="center">
 	<hr />
     <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>Become a sponsor</strong> and support Coding Interview University!</a>
+        <a href="https://github.com/sponsors/jwasham"><strong>贊助</strong>並且支持 Coding Interview University!</a>
     </p>
     <hr />
 </div>
 
-## What is it?
+## 這份讀書計畫是？
 
-這是我為了從一個網頁開發者(自學，並且沒有任何與資工、電腦科學有關的學位)，成為一個大公司軟體工程師，持續好幾個月的讀書計畫。
+![Coding 時的白板題 - 節錄自 HBO Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
+這是我為了成為大公司軟體工程師的數個月的讀書計畫。
 
-![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
+**必備**:
+* 一些 Coding 的經驗（變數、迴圈、方法/函數等等）
+* 耐心
+* 時間
 
-這是為了那些**新手軟體工程師**，或者是那些想要轉換跑道，從軟體/網頁開發者轉為軟體工程師(需要資工、電腦科學的知識)的人。
+請注意這是一份**軟體工程**的讀書計畫，而不是前端工程或全端開發的讀書計畫。針對後者的職涯路徑，網路上有許多參考資源（請參考 https://roadmap.sh/）。
 
-請注意就算你有多年的軟體/網頁開發經驗，那些著名的大型軟體公司，像是Google、Amazon、Facebook，或是Microsoft事實上把軟體/網頁開發(Software/Web Development)與軟體工程(Software Engineering)視為不同，而後者需要的是電腦科學/資訊工程的知識。
+雖然大學資工系（電腦科學）有許多課程要學習，但你只需要理解其中 75% 的內容便足夠應付面試，而這份讀書計畫則恰巧包含了這 75% 的內容。
 
-如果你想成為一個可靠的工程師或者是Operation Engineer，閱讀並且學習更多這份清單中的The Optional List(裡面包含網路與資訊安全的知識)。
+若你需要完整的電腦科學自學課程，可以參考 Kamran Ahmed 的電腦科學 Roadmap：https://roadmap.sh/computer-science，我的讀書計畫中所提到的資源也在這份 Roadmap 中。
 
 ---
 
 ## 目錄
 
 - [Coding Interview University](#coding-interview-university)
-  - [What is it?](#what-is-it)
+  - [這份讀書計畫是？](#這份讀書計畫是)
   - [目錄](#目錄)
   - [額外資源](#額外資源)
   - [Why use it?](#why-use-it)
