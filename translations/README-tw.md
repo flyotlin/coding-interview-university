@@ -1,15 +1,17 @@
 # Coding Interview University
 
-> 原先我為了成為一個軟體工程師而建立這份簡單的讀書主題清單(To-do list)，
-> 但這份To-do list隨著時間而膨脹成這個樣子。 [做完這份To-do list上的每個目標後，我成為了Amazon的工程師](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
-> 你或許不需要像我讀一樣多。但是，每個讓你成為一位稱職工程師所需要的知識都在這裡了。
+> 原先我為了成為一個軟體工程師而建立這份簡短的讀書計畫 (To-do list)，
+> 但這份讀書計畫隨著時間而膨脹成現在你看到的這個樣子。 執行完這份讀書計畫後，[我成為了 Amazon 的工程師](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)！
+> 或許你不需要讀得像我一樣多。但總之，所有你需要的知識都在這裡了。
 >
-> 我每天讀8~12小時的書，這樣持續了好幾個月。這是我的故事:[為什麼我為了Google面試而讀了8個月](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+> 我持續了好幾個月每天讀 8-12 小時的書。這是我的故事：[為什麼我為了 Google 面試讀了 8 個月](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 >
-> 在這份To-do list內的主題會讓你擁有足夠的知識去面對幾乎每家軟體公司的專業面試，
-> 這些公司包含了科技巨獸，例如Amazon、Facebook、Google，或者是Microsoft。
+> **注意**：你不用像我一樣讀這麼多，我浪費了許多時間去看不重要的東西。接下來我會提醒你哪些是不重要的，避免浪費你寶貴的時間。
 >
-> *祝你好運!*
+> 讀完這份讀書計畫內的主題後，你會擁有足夠的知識去面對幾乎每家軟體公司的專業面試，
+> 這些公司包含了數家科技巨獸，例如 Amazon、Facebook、Google，以及 Microsoft。
+>
+> *祝你好運！*
 
 <details>
 <summary>翻譯:</summary>
@@ -74,71 +76,54 @@
 
 ## 目錄
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [不要覺得自己不夠聰明](#dont-feel-you-arent-smart-enough(不要覺得自己不夠聰明))
-- [關於影片資源](#about-video-resources(關於影片資源))
-- [面試過程&面試準備](#interview-process--general-interview-prep(面試過程&面試準備))
-- [面試時專精一種程式語言](#面試時專精一種程式語言(Pick-One-Language-for-the-Interview))
-- [書單](#書單(book-list))
-- [在你開始之前](#在你開始之前)
-- [這份清單沒有包含的內容](#這份清單沒有包含的內容)
-- [先備知識](#先備知識)
-- [每日計畫](#每日計畫)
-- [演算法複雜度 / Big-O / 漸進分析](#演算法複雜度(Algorithmic-complexity)--Big-O--漸進分析(Asymptotic-analysis))
-- [資料結構](#資料結構)
-    - [陣列](#陣列)
-    - [Linked Lists](#linked-lists)
-    - [Stack](#Stack(堆疊))
-    - [Queue](#Queue(佇列))
-    - [Hash table](#Hash-table(雜湊表))
-- [更多](#更多)
-    - [二分搜尋法](#二分搜尋法(Binary-Search))
-    - [位元運算](#位元運算(Bitwise-operations))
-- [樹狀結構(Tree)](#樹狀結構(Tree))
-    - [Trees-重點與背景知識](#Trees-重點與背景知識)
-    - [二元搜尋樹](#二元搜尋樹Binary-search-trees:-BSTs)
-    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - 平衡搜尋樹(基本概念，非細節)
-    - 遍歷:前序、中序、後序、BFS、DFS
-- [排序](#排序)
-    - 選擇排序
-    - 插入排序
-    - 堆積排序
-    - 快速排序
-    - 合併排序
-- [圖](#圖)
-    - 有向圖
-    - 無向圖
-    - adjacency matrix
-    - adjacency list
-    - 遍歷: 廣度優先(BFS), 深度優先(DFS)
-- [更多知識](#更多知識)
-    - [遞迴](#遞迴Recursion)
-    - [動態規劃](#動態規劃)
-    - [物件導向程式設計](#物件導向程式設計)
-    - [設計模式](#設計模式)
-    - [組合數&機率](#組合數&機率)
-    - [NP、NP-Complete以及近似演算法](#NP、NP-Complete以及近似演算法)
-    - [快取(cache)](#快取(cache))
-    - [程序與執行緒](#程序與執行緒(Processes&Threads))
-    - [Testing](#testing)
-    - [排程](#排程Scheduling)
-    - [字串搜尋演算法以及操作](#字串搜尋演算法以及操作)
-    - [字典樹](#字典樹(Tries))
-    - [浮點數](#浮點數)
-    - [Unicode](#unicode)
-    - [端序](#端序(Endianness))
-    - [網路](#網路)
-- [系統設計、可擴充性、資料處理](#系統設計、可擴充性、資料處理) (如果你有四年以上的經驗)
-- [總複習](#總複習)
-- [解題練習](#解題練習)
-- [解題練習/挑戰](#解題練習/挑戰)
-- [面試前夕](#面試前夕)
-- [你的履歷](#你的履歷)
-- [想想面試時可能的狀況](#想想面試時可能的狀況)
-- [一旦你得到工作](#一旦你得到工作)
+- [Coding Interview University](#coding-interview-university)
+  - [What is it?](#what-is-it)
+  - [目錄](#目錄)
+  - [額外資源](#額外資源)
+  - [Why use it?](#why-use-it)
+  - [How to use it](#how-to-use-it)
+  - [Don't feel you aren't smart enough(不要覺得自己不夠聰明)](#dont-feel-you-arent-smart-enough不要覺得自己不夠聰明)
+  - [About Video Resources(關於影片資源)](#about-video-resources關於影片資源)
+  - [Interview Process \& General Interview Prep(面試過程\&面試準備)](#interview-process--general-interview-prep面試過程面試準備)
+  - [面試時專精一種程式語言(Pick One Language for the Interview)](#面試時專精一種程式語言pick-one-language-for-the-interview)
+  - [書單(Book List)](#書單book-list)
+    - [面試準備(Interview Prep)](#面試準備interview-prep)
+    - [如果你有額外的時間(If you have tons of extra time):](#如果你有額外的時間if-you-have-tons-of-extra-time)
+    - [程式語言精進](#程式語言精進)
+    - [C++](#c)
+  - [Java](#java)
+    - [Python](#python)
+  - [在你開始之前](#在你開始之前)
+    - [1. 你沒辦法記住所有事情](#1-你沒辦法記住所有事情)
+    - [2. 使用小字卡](#2-使用小字卡)
+    - [3. 學習資料結構與演算法的同時，也要做一些Coding面試中常出現的問題](#3-學習資料結構與演算法的同時也要做一些coding面試中常出現的問題)
+    - [4. 複習，複習，再複習](#4-複習複習再複習)
+    - [5. 專注](#5-專注)
+  - [這份清單沒有包含的內容](#這份清單沒有包含的內容)
+  - [每日計畫](#每日計畫)
+  - [先備知識](#先備知識)
+  - [演算法複雜度(Algorithmic complexity) / Big-O / 漸進分析(Asymptotic analysis)](#演算法複雜度algorithmic-complexity--big-o--漸進分析asymptotic-analysis)
+  - [資料結構](#資料結構)
+  - [更多](#更多)
+  - [樹狀結構(Tree)](#樹狀結構tree)
+  - [排序](#排序)
+  - [圖](#圖)
+  - [更多知識](#更多知識)
+  - [系統設計、可擴充性、資料處理](#系統設計可擴充性資料處理)
+  - [總複習](#總複習)
+  - [解題練習](#解題練習)
+  - [解題練習/挑戰](#解題練習挑戰)
+  - [面試前夕](#面試前夕)
+  - [你的履歷](#你的履歷)
+  - [想想面試時可能的狀況](#想想面試時可能的狀況)
+  - [一旦你得到工作](#一旦你得到工作)
+  - [選修書籍](#選修書籍)
+  - [額外學習](#額外學習)
+  - [某些主題的額外知識](#某些主題的額外知識)
+  - [影片系列](#影片系列)
+  - [電腦科學課程](#電腦科學課程)
+  - [論文](#論文)
+  - [LICENSE](#license)
 
 ---------------- 以下皆為選讀 ----------------
 
