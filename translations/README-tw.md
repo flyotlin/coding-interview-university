@@ -266,6 +266,53 @@
 
 因此，將這些 MOOCs 課程影片替換為像是 YouTube 影片（大學開放式課程）一樣免費且隨時可存取的公開資源會是更好的選擇。如此一來，大家便能隨時學習，而不會受到線上資源特定時段才能存取的限制。
 
+## 選擇一個程式語言
+
+你需要選擇一個程式語言進行面試中的白板題，但在學習電腦科學的概念時你也需要一個程式語言。
+
+程式語言最好是相同的，所以你只需要專精其中一個。
+
+### 針對這份讀書計畫
+
+當我在執行這份讀書計畫時，我主要使用 C 與 Python 這兩個程式語言。
+
+* C：低階程式語言，允許你直接操作指標，分配、釋放記憶體，因此寫 C 的過程中你能夠直接感受到資料結構與演算法。在一些如 Python 或 Java 高階程式語言中，這些低階細節則被隱藏起來。這樣隱藏細節的抽象化在日常工作中很棒，但當你在學習這些低階資料結構的實作細節時，使用 C 這類的低階語言來感受實體機器的運作會更好。
+    - C 無所不在，你會在學習過程中，在各種書籍、課程、影片中發現他的蹤跡。
+    - [The C Programming Language, 2nd Edition](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
+      - 這本書頁數不多，但能讓你對 C 語言有很好的掌握度。如果你有跟著練習，你將很快的精通 C。理解 C 語言對於理解程式與記憶體的運作原理很有幫助。
+      - 你不需要深入理解這本書，也不需要讀完他。把書讀到你能夠輕易的讀與寫 C 語言即可。
+* Python：一個現代且富有表達力的程式語言。學 Python 是因為他很有用，並且在面試中用 Python 能少寫一些程式碼。
+
+以上是我的個人喜好，僅供參考。
+
+以下是一些學習程式語言的網站：
+- [Exercism](https://exercism.org/tracks)
+- [Codewars](http://www.codewars.com)
+- [HackerEarth](https://www.hackerearth.com/for-developers/)
+- [Scaler Topics (Java, C++)](https://www.scaler.com/topics/)
+
+### 針對面試
+
+面試中你可以使用你熟悉的程式語言進行白板題，但大公司通常會使用：
+
+- C++
+- Java
+- Python
+
+你也可以用以下這些程式語言：
+
+- JavaScript
+- Ruby
+
+我之前寫過一篇關於選擇面試時使用的程式語言的文章：[挑一個面試時使用的程式語言](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/)。我的文章參考了這篇：[為面試選擇程式語言](https://web.archive.org/web/20210516054124/http://blog.codingforinterviews.com/best-programming-language-jobs/)
+
+你必須非常熟悉且了解你所選的程式語言。
+
+關於選擇程式語言：
+- [為你的面試選擇正確的程式語言](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
+
+[程式語言相關的資源](programming-language-resources.md)
+
 ## Interview Process & General Interview Prep(面試過程&面試準備)
 
 - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
