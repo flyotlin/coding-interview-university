@@ -1,0 +1,32 @@
+- 名詞
+  - to-do list: 讀書計畫
+  - Coding Interview University
+  - method: 方法
+  - function: 函數
+  - variable: 變數
+  - loop: 迴圈
+  - software engineering: 軟體工程
+  - career path: 職涯路徑
+  - coding question: 面試問題
+  - coding problem: 白板題
+  - algorithmic complexity: 演算法複雜度
+  - Asymptotic analysis：漸進分析
+  - System Design:系統設計
+  - Scalability: 擴展性
+  - Data handling: 資料處理
+  - Multidimensional Array: 多維陣列
+  - Computer Science: 電腦科學
+  - Outline: 概述、大綱
+  - Item: 項目
+  - Task List: 任務清單
+  - Local: 本地
+  - low level: 低階
+  - lecture: 課程
+  - modern: 現代
+  - expressive: 富有表達力
+- 譯者編
+  - 資工常見術語依照譯者平常習慣決定是否翻成中文，如 Stack、Heap 不特別翻譯，但 Multidimensional Array 則翻成多維陣列
+  - 資工罕見、不常用術語以原文呈現
+  - 其他術語則依照此表對應
+  - 影片標題會翻譯成中文
+  - 書籍標題則保持原文

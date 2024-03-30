@@ -88,7 +88,7 @@
 - [不要覺得自己不夠聰明](#不要覺得自己不夠聰明)
 - [關於影片資源](#關於影片資源)
 - [選擇一個程式語言](#選擇一個程式語言)
-- [資料結構語言算法的書籍](#資料結構語言算法的書籍)
+- [資料結構與演算法的書籍](#資料結構與演算法的書籍)
 - [面試準備的書籍](#面試準備的書籍)
 - [前車之鑑](#前車之鑑)
 - [不會被包含的內容](#不會被包含的內容)
@@ -312,6 +312,43 @@
 - [為你的面試選擇正確的程式語言](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
 
 [程式語言相關的資源](programming-language-resources.md)
+
+## 資料結構與演算法的書籍
+
+這本書將成為你的電腦科學知識的基礎。
+
+以你熟悉的程式語言在下面的書單中挑選其中一本，仔細的閱讀並且實際寫程式練習。
+
+### C
+
+- [Algorithms in C, Parts 1-5 (Bundle), 3rd Edition](https://www.amazon.com/Algorithms-Parts-1-5-Bundle-Fundamentals/dp/0201756080)
+    - 基礎、資料結構、排序、搜尋、圖論演算法
+
+### Python
+
+- [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
+    - 作者：Goodrich、Tamassia、Goldwasser
+    - 我很愛這本書，書中包含了所有你需要的內容
+    - Pythonic code
+    - 我的書評：https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
+
+### Java
+
+- 作者：Goodrich、Tamassia、Goldwasser
+    - [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
+- 作者：Sedgewick、Wayne:
+    - [Algorithms](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
+    - 由書籍作者提供的免費 Coursera 課程，包含了書中的內容：
+        - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
+        - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
+
+### C++
+
+- 作者：Goodrich、Tamassia、Mount
+    - [Data Structures and Algorithms in C++, 2nd Edition](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383275)
+- 作者：Sedgewick、Wayne
+    - [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
+    - [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
 ## Interview Process & General Interview Prep(面試過程&面試準備)
 
