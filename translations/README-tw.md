@@ -260,11 +260,11 @@
   - [天才程式設計師的迷思](https://www.youtube.com/watch?v=0SARbwvhupQ)
   - [不要單打獨鬥：面對科技中的隱形怪物](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## About Video Resources(關於影片資源)
+## 關於影片資源
 
-有些影片要註冊Coursera或者Edx的課程後才能觀看，也就是所謂的MOOCs。有時候某些課程需要等待好幾個月才能註冊，這期間你無法觀看這些課程的影片。
+有些影片要註冊 Coursera 或者 Edx 的課程後才能觀看，也就是所謂的 MOOCs。有時候某些課程需要等待好幾個月才能註冊，在這段期間內你無法觀看這些課程的影片。
 
-    我非常喜歡那些大學的線上課程。感謝你們幫忙加入一些免費、可隨時觀看的公開資源，像是那些線上課程的YouTube影片。
+因此，將這些 MOOCs 課程影片替換為像是 YouTube 影片（大學開放式課程）一樣免費且隨時可存取的公開資源會是更好的選擇。如此一來，大家便能隨時學習，而不會受到線上資源特定時段才能存取的限制。
 
 ## Interview Process & General Interview Prep(面試過程&面試準備)
 
