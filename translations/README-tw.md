@@ -213,39 +213,45 @@
 
 這是份遠大的讀書計畫，或許要花上你數個月的時間。如果你對其中大部分的東西已經很熟悉的話，那麼執行這份讀書計畫所花費的時間將減少許多。
 
-## How to use it
+## 如何使用這份讀書計畫？
 
-下面每項是大綱，你需要從上到下的去理解這些大綱。
+這份讀書計畫中的每個項目都只是概述，你應該要從上到下的去理解這些項目。
 
-我用了Github-flavored markdown語法，其中包含了可以確定完成進度的任務清單。
+我用了 Github-flavored markdown 語法，其中包含了可以追蹤進度的任務清單。
+  - [關於 GitHub-flavored markdown 語法](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
+### 不使用 git
 
-**建立一個新的Branch以使用Github-flavored markdown的勾選功能。只要在[]中打x，像是: [x]**
+點選此頁面上方的「Code」按鈕，再點選「Download ZIP」。接著，解壓縮下載的檔案，並且開始使用這些文字檔案 (md)。
 
+如果你使用支援 markdown 語法的編輯器，你將會看到所有的內容被正確排版。
 
-    Fork一個branch，並且跟隨以下的指令
+![如何下載一個 repo 的 zip 檔](https://d3j2pkmjtin6ou.cloudfront.net/how-to-download-as-zip.png)
 
-`git clone git@github.com:<your_github_username>/coding-interview-university.git`
+### 使用 git
+建立一個新的 branch 以使用 Github-flavored markdown 語法的勾選功能。只要在 [] 中打 x，像是：[x]
 
-`git checkout -b progress`
+1. ***Fork GitHub 的 repo***： 點選 `https://github.com/jwasham/coding-interview-university` 頁面上的 Fork 按鈕.
 
-`git remote add jwasham https://github.com/jwasham/coding-interview-university`
+    ![Fork GitHub 的 repo](https://d3j2pkmjtin6ou.cloudfront.net/fork-button.png)
 
-`git fetch --all`
+2. Clone 到本地的 repo：
 
-    在你完成了一些目標後，在框框中打x
+    ```bash
+    git clone https://github.com/<YOUR_GITHUB_USERNAME>/coding-interview-university.git
+    cd coding-interview-university
+    git remote add upstream https://github.com/jwasham/coding-interview-university.git
+    git remote set-url --push upstream DISABLE  # 指定不要 push 你自己的進度到原本的 repo
+    ```
 
-`git add .`
+3. 完成變更後將所有 [] 打 x：
 
-`git commit -m "Marked x"`
+    ```bash
+    git commit -am "Marked personal progress"
+    git pull upstream main  # 將你的 fork repo 與原本 repo 的最新狀態同步
 
-`git rebase jwasham/main`
-
-`git push --set-upstream origin progress`
-
-`git push --force`
-
-[更多有關Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+    git push # push 到你的 fork repo
+    ```
 
 ## Don't feel you aren't smart enough(不要覺得自己不夠聰明)
 
