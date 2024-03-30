@@ -253,11 +253,12 @@
     git push # push 到你的 fork repo
     ```
 
-## Don't feel you aren't smart enough(不要覺得自己不夠聰明)
+## 不要覺得自己不夠聰明
 
-- 大多數成功的軟體工程師都非常聰明，但他們都有一種覺得自己不夠聰明的不安全感。
-- [The myth of the Genius Programmer(天才Programmer的迷思)](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech(不要單打獨鬥:面對科技中的隱形怪物)](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- 大多數成功的軟體工程師都非常聰明，但他們大都有種覺得自己不夠聰明的不安感。
+- 這些影片或許能幫助你緩解這種不安感：
+  - [天才程式設計師的迷思](https://www.youtube.com/watch?v=0SARbwvhupQ)
+  - [不要單打獨鬥：面對科技中的隱形怪物](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
 ## About Video Resources(關於影片資源)
 
