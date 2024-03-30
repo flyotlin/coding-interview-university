@@ -80,60 +80,85 @@
 
 ## 目錄
 
-- [Coding Interview University](#coding-interview-university)
-  - [這份讀書計畫是？](#這份讀書計畫是)
-  - [目錄](#目錄)
-  - [額外資源](#額外資源)
-  - [Why use it?](#why-use-it)
-  - [How to use it](#how-to-use-it)
-  - [Don't feel you aren't smart enough(不要覺得自己不夠聰明)](#dont-feel-you-arent-smart-enough不要覺得自己不夠聰明)
-  - [About Video Resources(關於影片資源)](#about-video-resources關於影片資源)
-  - [Interview Process \& General Interview Prep(面試過程\&面試準備)](#interview-process--general-interview-prep面試過程面試準備)
-  - [面試時專精一種程式語言(Pick One Language for the Interview)](#面試時專精一種程式語言pick-one-language-for-the-interview)
-  - [書單(Book List)](#書單book-list)
-    - [面試準備(Interview Prep)](#面試準備interview-prep)
-    - [如果你有額外的時間(If you have tons of extra time):](#如果你有額外的時間if-you-have-tons-of-extra-time)
-    - [程式語言精進](#程式語言精進)
-    - [C++](#c)
-  - [Java](#java)
-    - [Python](#python)
-  - [在你開始之前](#在你開始之前)
-    - [1. 你沒辦法記住所有事情](#1-你沒辦法記住所有事情)
-    - [2. 使用小字卡](#2-使用小字卡)
-    - [3. 學習資料結構與演算法的同時，也要做一些Coding面試中常出現的問題](#3-學習資料結構與演算法的同時也要做一些coding面試中常出現的問題)
-    - [4. 複習，複習，再複習](#4-複習複習再複習)
-    - [5. 專注](#5-專注)
-  - [這份清單沒有包含的內容](#這份清單沒有包含的內容)
-  - [每日計畫](#每日計畫)
-  - [先備知識](#先備知識)
-  - [演算法複雜度(Algorithmic complexity) / Big-O / 漸進分析(Asymptotic analysis)](#演算法複雜度algorithmic-complexity--big-o--漸進分析asymptotic-analysis)
-  - [資料結構](#資料結構)
-  - [更多](#更多)
-  - [樹狀結構(Tree)](#樹狀結構tree)
-  - [排序](#排序)
-  - [圖](#圖)
-  - [更多知識](#更多知識)
-  - [系統設計、可擴充性、資料處理](#系統設計可擴充性資料處理)
-  - [總複習](#總複習)
-  - [解題練習](#解題練習)
-  - [解題練習/挑戰](#解題練習挑戰)
-  - [面試前夕](#面試前夕)
-  - [你的履歷](#你的履歷)
-  - [想想面試時可能的狀況](#想想面試時可能的狀況)
-  - [一旦你得到工作](#一旦你得到工作)
-  - [選修書籍](#選修書籍)
-  - [額外學習](#額外學習)
-  - [某些主題的額外知識](#某些主題的額外知識)
-  - [影片系列](#影片系列)
-  - [電腦科學課程](#電腦科學課程)
-  - [論文](#論文)
-  - [LICENSE](#license)
+### 讀書計畫
+
+- [這份讀書計畫是？](#這份讀書計畫是)
+- [為什麼要使用這份讀書計畫？](#為什麼要使用這份讀書計畫)
+- [如何使用這份讀書計畫？](#如何使用這份讀書計畫)
+- [不要覺得自己不夠聰明](#不要覺得自己不夠聰明)
+- [關於影片資源](#關於影片資源)
+- [選擇一個程式語言](#選擇一個程式語言)
+- [資料結構語言算法的書籍](#資料結構語言算法的書籍)
+- [面試準備的書籍](#面試準備的書籍)
+- [前車之鑑](#前車之鑑)
+- [不會被包含的內容](#不會被包含的內容)
+- [每日計畫](#每日計畫)
+- [練習面試問題](#練習面試問題)
+- [白板題](#白板題)
+
+### 學習主題
+
+- [演算法複雜度 / Big-O / 漸進分析](#algorithmic-complexity--big-o--asymptotic-analysis)
+- [Data Structures](#data-structures)
+    - [Arrays](#arrays)
+    - [Linked Lists](#linked-lists)
+    - [Stack](#stack)
+    - [Queue](#queue)
+    - [Hash table](#hash-table)
+- [More Knowledge](#more-knowledge)
+    - [Binary search](#binary-search)
+    - [Bitwise operations](#bitwise-operations)
+- [Trees](#trees)
+    - [Trees - Intro](#trees---intro)
+    - [Binary search trees: BSTs](#binary-search-trees-bsts)
+    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
+    - balanced search trees (general concept, not details)
+    - traversals: preorder, inorder, postorder, BFS, DFS
+- [Sorting](#sorting)
+    - selection
+    - insertion
+    - heapsort
+    - quicksort
+    - mergesort
+- [Graphs](#graphs)
+    - directed
+    - undirected
+    - adjacency matrix
+    - adjacency list
+    - traversals: BFS, DFS
+- [Even More Knowledge](#even-more-knowledge)
+    - [Recursion](#recursion)
+    - [Dynamic Programming](#dynamic-programming)
+    - [Design Patterns](#design-patterns)
+    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
+    - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
+    - [How computers process a program](#how-computers-process-a-program)
+    - [Caches](#caches)
+    - [Processes and Threads](#processes-and-threads)
+    - [Testing](#testing)
+    - [String searching & manipulations](#string-searching--manipulations)
+    - [Tries](#tries)
+    - [Floating Point Numbers](#floating-point-numbers)
+    - [Unicode](#unicode)
+    - [Endianness](#endianness)
+    - [Networking](#networking)
+- [Final Review](#final-review)
+
+### 取得工作
+
+- [更新履歷](#更新履歷)
+- [找工作](#find-a-job)
+- [面試過程 & 一般面試準備](#interview-process--general-interview-prep)
+- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
+- [準備給面試官的題目](#have-questions-for-the-interviewer)
+- [取得工作後](#once-youve-got-the-job)
 
 ---------------- 以下皆為選讀 ----------------
 
-## 額外資源
+### 額外資源
 
 - [選修書籍](#選修書籍)
+- [系統設計、擴展性、資料處理](#系統) (如果你有四年以上的經驗再考慮閱讀這個章節)
 - [額外學習](#額外學習)
     - [編譯器](#編譯器)
     - [Emacs and vi(m)](#emacs-and-vim)
@@ -171,7 +196,6 @@
     - [線性程式設計](#線性程式設計Linear-Programming-(影片))
     - [幾何、Convex hull](#幾何、Convex-hull-(影片))
     - [離散數學](#離散數學)
-    - [機器學習](#機器學習)
 - [某些主題的額外知識](#某些主題的額外知識)
 - [影片系列](#影片系列)
 - [電腦科學課程](#電腦科學課程)
