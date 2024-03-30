@@ -89,7 +89,7 @@
 - [關於影片資源](#關於影片資源)
 - [選擇一個程式語言](#選擇一個程式語言)
 - [資料結構與演算法的書籍](#資料結構與演算法的書籍)
-- [面試準備的書籍](#面試準備的書籍)
+- [面試準備書籍](#面試準備書籍)
 - [前車之鑑](#前車之鑑)
 - [不會被包含的內容](#不會被包含的內容)
 - [每日計畫](#每日計畫)
@@ -299,7 +299,7 @@
 - Java
 - Python
 
-你也可以用以下這些程式語言：
+你也可以用以下這些程式語言，但可能會有某些限制：
 
 - JavaScript
 - Ruby
@@ -349,6 +349,28 @@
 - 作者：Sedgewick、Wayne
     - [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
     - [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
+
+## 面試準備書籍
+
+這些書不用全部都買，老實說買「Cracking the Coding Interview」就足夠了，但為了額外的練習我買了更多的書。我總是練習了太多。
+
+以下這兩本我都有買，裡面有許多練習：
+
+- [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
+    - 答案以 C++ 與 Java 寫成
+    - 可以作為「Cracking the Coding Interview」的熱身
+    - 不難，書中的題目大都比面試還簡單（據我所知）
+- [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+    - 答案以 Java 寫成
+
+### 如果你還有許多額外的時間：
+
+選擇以下其中一本：
+
+- [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+- [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
+- [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
+        - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
 
 ## Interview Process & General Interview Prep(面試過程&面試準備)
 
