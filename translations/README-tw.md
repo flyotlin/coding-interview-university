@@ -89,7 +89,7 @@
 - [關於影片資源](#關於影片資源)
 - [選擇一個程式語言](#選擇一個程式語言)
 - [資料結構與演算法的書籍](#資料結構與演算法的書籍)
-- [面試準備書籍](#面試準備書籍)
+****- [面試準備書籍](#面試準備書籍)
 - [前車之鑑](#前車之鑑)
 - [不會被包含的內容](#不會被包含的內容)
 - [每日計畫](#每日計畫)
@@ -372,6 +372,79 @@
 - [Elements of Programming Interviews (Java version)](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
         - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
 
+## 前車之鑑
+
+這份讀書計畫的規模隨著時間增長，當然，並且變得難以掌控。
+
+以下是我曾犯過的錯誤，希望能避免你也犯這些錯，讓你有更好的學習體驗，並且節省你的時間。
+
+### 1. 你沒辦法記住所有事情
+
+我看了數小時的影片，同時也寫下了大量的筆記。但過了幾個月後，我忘了大部分的內容。我花了三天重新看過我的筆記，並做了小字卡幫助我複習那些內容。不過，我並不需要記住所有內容。
+
+請閱讀以下的文章以免重蹈覆轍：
+
+[讓電腦科學知識過目不忘](https://startupnextdoor.com/retaining-computer-science-knowledge/).
+
+### 2. 使用小字卡
+
+為了解決剛剛提到的遺忘問題，我自己寫了一個小字卡網站。網站上可以新增兩種小字卡，「一般」以及「程式碼」。
+
+每一種小字卡都有不同的格式。
+
+這個小字卡網站在製作時便是以行動裝置優先的方式設計的，以便我能在任何地方使用我的手機與平板複習。
+
+製作屬於自己的免費小字卡:
+- [我的小字卡網站 repo](https://github.com/jwasham/computer-science-flash-car
+- ds)
+
+**我不建議使用「my flashcards」**，裡面有太多小字卡，且大都不是你需要的。
+
+不過這只是我的看法，以下是「my flashcards」的連結：
+- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
+- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
+
+我做過頭了！我的小字卡資料庫中包含了組合語言、Python 的小知識、機器學習以及統計。這些內容已經超出了原本他的預設。
+
+**關於小字卡**：當你第一次知道答案後，別馬上把那張小字卡標記為已知。反覆複習這張小字卡，直到每次都能答對後才是真正學會了這個問題。反覆的動作會讓這個知識深深地烙印在你的腦海內。
+
+這裡有個替代我小字卡的網站 [Anki](http://ankisrs.net/)，很多人向我推薦過他。這個網站用同一個字卡重複出現的方式讓你牢牢地記住他。
+這個網站非常容易使用，支援多平台，並且有雲端同步功能。在 iOS 平台上收費 25 美金，其他平台免費。
+
+這是我用 Anki 這個網站裡的格式所儲存的小字卡資料庫: https://ankiweb.net/shared/info/25173560 (感謝 [@xiewenya](https://github.com/xiewenya))。
+
+但某些學生反應了跟空白有關的格式問題。這個問題可以透過以下方式修復：
+- 打開 deck
+- 編輯卡片
+- 點選卡片
+- 選取 "styling" 的單選鈕
+- 在卡片 class 中新增一個 member「white-space: pre;」
+
+### 3. 邊學邊練習面試白板題
+
+**以下的內容非常重要**
+
+學習資料結構與演算法的同時，也要練習一些面試的白板題題目。
+
+把你學過的東西應用在解題上面，否則你很快就會忘了他們。這是一個過來人的經驗談。
+
+一旦你自認學會了一個像是 linked list 之類的主題後：
+1. 打開 [coding interview books](#interview-prep-books) 中的其中一本書（或者以下的白板題網站）
+2. 練習兩三個與 linked list 有關的題目
+3. 開始進行下個學習主題
+4. 接著，再回去練習兩三個 linked list 的題目
+5. 每個學習主題都重複這個流程
+
+**在學習時練習，而非學習後。**
+
+公司錄取你是為了能有即戰力能夠上戰場，而非一個紙上談兵的人。
+
+以下有許多關於這點的資源，加油！
+
+### 4. 專注
+
+能夠干擾你，浪費你寶貴時間的東西很多。因此，專注集中精神實在很難。放點純音樂能幫上一些忙。
+
 ## Interview Process & General Interview Prep(面試過程&面試準備)
 
 - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
@@ -483,59 +556,6 @@
     - 我超愛這本書。他包含了所有東西。
     - 很Python的Code!
     - 我的書評: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
-
-
-## 在你開始之前
-
-這份清單隨著時間越來越大。當然，這也同時代表我越來越難以掌握他的整體內容。
-
-以下是一些清單內的錯誤，希望能讓你避免這些錯誤，並且有更好的學習體驗。
-
-### 1. 你沒辦法記住所有事情
-
-我看了數小時的影片，同時也寫下了大量的筆記。但過了幾個月後，大部分的東西都消失的無影無蹤。我花了三天重新看過我的筆記，並做了小字卡幫助我複習他們。
-
-請閱讀以下的文章以免重蹈覆轍:
-
-[Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/).
-
-有人推薦給我的課程(但我還沒看過:( ): [Learning how to Learn](https://www.coursera.org/learn/learning-how-to-learn)
-
-### 2. 使用小字卡
-
-為了解決剛剛提到的遺忘問題，我自己寫了一個小字卡網站。網站上可以新增兩種小字卡，一般的以及程式碼。
-每一種類的小字卡都有不同的格式。
-
-這個小字卡網站在製作時便是以行動裝置優先的方式設計的，好處是無論我在何處，我都可以在我的手機與平板上複習。
-
-製作屬於自己的免費小字卡:
-
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
-
-我的小字卡資料庫中包含了組合語言、Python的小知識、機器學習以及統計。這些內容已經超出了原本他的預設。
-
-**關於小字卡**:當你第一次知道答案後，別馬上把那張小字卡標記為已知。反覆複習這張小字卡，直到每次都能答對後才是真正學會了這個問題。反覆的動作會讓這個知識深深地烙印在你的腦海內。
-
-這裡有個替代我小字卡的網站[Anki](http://ankisrs.net/)，很多人向我推薦過他。這個網站用同一個字卡重複出現的方式讓你牢牢地記住他。
-這個網站非常容易使用，支援多平台，並且有雲端同步功能。在iOS平台上收費25美金，其他平台免費。
-
-這是我用Anki這個網站裡的格式所儲存的小字卡資料庫: https://ankiweb.net/shared/info/25173560 (感謝 [@xiewenya](https://github.com/xiewenya))
-
-### 3. 學習資料結構與演算法的同時，也要做一些Coding面試中常出現的問題
-
-把你學過的東西應用在解題上面，否則你很快就會忘了他們。這是一個過來人的經驗談。一旦你自認學會了一個主題，像是Linked List之類的，打開任何一本Coding面試問題書籍，做一些裡面有關Linked List的問題。接著繼續讀後面的主題。然後，再回頭反覆做有關Linked List、遞迴或者其他任何東西(原文為Recursion，非Recursive)的題目。但切記一定在讀這些資料結構、演算法的同時，也要實際去寫一些有關這些東西的題目。公司錄取你是為了能有即戰力能夠上戰場，而非一個紙上談兵的人。這邊我覺得還不錯的書籍和網站。更多: [Coding Question Practice](#coding-question-practice)
-
-### 4. 複習，複習，再複習
-
-我自己寫了一些有關於ASCII Code、網路OSI模型、Big-O(時間複雜度)等等的小抄。我有空的時候就會把他們拿出來看一看複習一下。
-
-打Code累了的話就休息半個小時，並且複習你的小字卡。
-
-### 5. 專注
-
-能夠干擾你，浪費你寶貴時間的東西很多。因此，專注集中精神實在很難。放點純音樂能幫上一些忙。
 
 ## 這份清單沒有包含的內容
 
