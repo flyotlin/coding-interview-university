@@ -24,6 +24,7 @@
   - lecture: 課程
   - modern: 現代
   - expressive: 富有表達力
+  - flash card: 小字卡
 - 譯者編
   - 資工常見術語依照譯者平常習慣決定是否翻成中文，如 Stack、Heap 不特別翻譯，但 Multidimensional Array 則翻成多維陣列
   - 資工罕見、不常用術語以原文呈現

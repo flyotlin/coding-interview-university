@@ -63,6 +63,7 @@
 ## 這份讀書計畫是？
 
 ![Coding 時的白板題 - 節錄自 HBO Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
+
 這是我為了成為大公司軟體工程師的數個月的讀書計畫。
 
 **必備**:
@@ -445,6 +446,29 @@
 
 能夠干擾你，浪費你寶貴時間的東西很多。因此，專注集中精神實在很難。放點純音樂能幫上一些忙。
 
+## 不會被包含的內容
+
+這些是目前非常熱門，但這份讀書計畫不會提到的技術：
+
+- Javascript
+- HTML、CSS，以及其他前端技術
+- SQL
+
+## 每日計畫
+
+這份讀書計畫包含許多主題。根據你的安排，每個主題所花的時間都不盡相同，。有些需要花上數天，有些甚至要好幾個禮拜。
+
+
+每天我選擇挑選下面其中一個主題，看跟該主題相關的影片，再用你熟悉的的程式語言實作、練習。
+
+下面是我寫的程式碼：
+ - [C](https://github.com/jwasham/practice-c)
+ - [C++](https://github.com/jwasham/practice-cpp)
+ - [Python](https://github.com/jwasham/practice-python)
+
+你不需要記住每個演算法，理解到能夠以自己的方式實作出來即可。
+
+--- 
 ## Interview Process & General Interview Prep(面試過程&面試準備)
 
 - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
@@ -557,43 +581,6 @@
     - 很Python的Code!
     - 我的書評: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
-## 這份清單沒有包含的內容
-
-以下為普遍但沒有包含在這份清單內的技術:
-
-- SQL
-- Javascript
-- HTML、CSS，以及其他前後端的技術
-
-## 每日計畫
-
-每個主題所花費的時間都不盡相同，有些只要一天，有些需要花上數天。有些主題只有單純的知識而無包含實作。
-
-每天我選擇下面其中一個主題，看跟該主題相關的影片，再用下面的程式語言實作:
-- C - 用使用了struct *或者其他東西當作參數的struct以及函數
-- C++ - 不要使用內建的東西
-- C++ - 用C++內建的東西，像是STL的Linked List，std::list。
-- Python - 使用內建的東西(為了練習Python)
-- 寫一些測試來驗證自己寫的東西是正確的，像是用assert()等簡單的方法。
-- 你也可以用Java來練習，上面只是我自己的方法。
-
-你不需要學會所有的程式語言，你只需要專精在某個程式語言 [one language for the interview](#pick-one-language-for-the-interview).
-
-為什麼要這樣寫Code?
-- 練習，練習，再練習，直到我對他產生厭惡感，並且能輕鬆無誤地寫出那些Code。(有些東西需要特別記住，像是在邊界的時候會出現問題(edge cases)，或者一些小細節)
-- 全部自己來(像是手動分配/釋放記憶體，不要依賴語言中的garbage collection的功能(除了Python或者Java))
-- 利用語言中內建的東西及工具，之後在實際工作的時候才能得心應手(畢竟我不想在工作時手刻一個Linked List)。
-
-我沒有時間做每個主題中的每個東西，但我會盡力而為。
-
-下面是我自己寫的程式碼:
- - [C](https://github.com/jwasham/practice-c)
- - [C++](https://github.com/jwasham/practice-cpp)
- - [Python](https://github.com/jwasham/practice-python)
-
- 你不需要記住每個演算法裡面的內容。
-
- 試試看把程式碼寫在白板或者紙上而不是電腦上。接著用一些測資來測試他。最後才用電腦來驗證。
 
  ## 先備知識
 
