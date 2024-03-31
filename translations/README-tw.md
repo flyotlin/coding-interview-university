@@ -90,11 +90,11 @@
 - [關於影片資源](#關於影片資源)
 - [選擇一個程式語言](#選擇一個程式語言)
 - [資料結構與演算法的書籍](#資料結構與演算法的書籍)
-****- [面試準備書籍](#面試準備書籍)
+- [面試準備書籍](#面試準備書籍)
 - [前車之鑑](#前車之鑑)
 - [不會被包含的內容](#不會被包含的內容)
 - [每日計畫](#每日計畫)
-- [練習面試問題](#練習面試問題)
+- [白板題練習](#白板題練習)
 - [白板題](#白板題)
 
 ### 學習主題
@@ -396,8 +396,7 @@
 這個小字卡網站在製作時便是以行動裝置優先的方式設計的，以便我能在任何地方使用我的手機與平板複習。
 
 製作屬於自己的免費小字卡:
-- [我的小字卡網站 repo](https://github.com/jwasham/computer-science-flash-car
-- ds)
+- [我的小字卡網站 repo](https://github.com/jwasham/computer-science-flash-cards)
 
 **我不建議使用「my flashcards」**，裡面有太多小字卡，且大都不是你需要的。
 
@@ -430,7 +429,7 @@
 把你學過的東西應用在解題上面，否則你很快就會忘了他們。這是一個過來人的經驗談。
 
 一旦你自認學會了一個像是 linked list 之類的主題後：
-1. 打開 [coding interview books](#interview-prep-books) 中的其中一本書（或者以下的白板題網站）
+1. 打開 [面試準備書籍](#面試準備書籍) 中的其中一本書（或者以下的白板題網站）
 2. 練習兩三個與 linked list 有關的題目
 3. 開始進行下個學習主題
 4. 接著，再回去練習兩三個 linked list 的題目
@@ -468,133 +467,66 @@
 
 你不需要記住每個演算法，理解到能夠以自己的方式實作出來即可。
 
---- 
-## Interview Process & General Interview Prep(面試過程&面試準備)
+## 白板題練習
 
-- [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-- [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-- [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
-- [ ] 如何錄取Big Tech(Google, Amazon, Facebook, Apple):
-    - [ ] [How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-- [ ] Coding面試解密:
-    - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-    - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-- [ ] Facebook Coding面試解密:
-    - [ ] [The Approach](https://www.youtube.com/watch?v=wCl9kvQGHPI)
-    - [ ] [Problem Walkthrough](https://www.youtube.com/watch?v=4UWDyJq8jZg)
-- [ ] 準備課程:
-    - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - 從前Google面試官身上學習如何充實自己，讓自己能夠應付軟體工程師的面試。
-    - [ ] [Python for Data Structures, Algorithms, and Interviews (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
-        - Python面試準備課程，其中包含了資料結構、演算法、模擬面試等等。
-    - [ ] [Intro to Data Structures and Algorithms using Python (Udacity free course)](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513):
-        - Python免費資料結構及演算法課程。
-    - [ ] [Data Structures and Algorithms Nanodegree! (Udacity paid Nanodegree)](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256):
-        - 超過100種實際的資料結構及演算法練習。名師指導讓你準備好面試以及工作的實際情況。
+    為什麼這麼早就安排這個章節？我還沒做好面試的準備。
 
-## 面試時專精一種程式語言(Pick One Language for the Interview)
+[請回去看看這個章節](#3-邊學邊練習面試白板題)
 
-在面試的coding階段，你可以選擇任何一個你擅長的程式語言。但多數大公司僅有以下選擇:
+為什麼你需要練習白板題：
+- 識別問題，並且找出合適的資料結構與演算法
+- 了解題目的要求
+- 模擬在面試中說明解法的過程
+- 在白紙或白板上解題，而非電腦
+- 找出你的解法的時間與空間複雜度（詳見下方 Big-O）
+- 測試你的解法
 
-- C++
-- Java
-- Python
+有條不紊、溝通順暢的面試十分重要，面試書籍中通常有相關介紹，但這個網站中的介紹也很棒：[Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
 
-你也可以選擇以下的程式語言，但可能會有某些限制:
+在白板或白紙，而非你的電腦上寫程式。用一些範例輸入測試，再把你的程式丟到電腦上測試。
 
-- JavaScript
-- Ruby
+如果你沒有白板，去美術社買個大的素描本。你可以坐在沙發上用這個素描本練習，我將這個稱為我的「沙發白板」。圖片中的筆被我當成比例尺。建議你使用**鉛筆和橡皮擦**，以便書寫與擦拭。
 
-我之前寫過一篇關於在面試時選擇程式語言的文章:[Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/)
+![我的沙發白板](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
-你需要非常熟練這個程式語言，並且對他非常了解。
+**白板題不是死記硬背問題的答案**
 
-閱讀更多有關程式語言的選擇:
-- http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
-- http://blog.codingforinterviews.com/best-programming-language-jobs/
+## 白板題
 
-[程式語言相關資源](programming-language-resources.md)
+別忘了你最重要的[面試準備書籍](#面試準備書籍).
 
-因為我正在學習C、C++以及Python，所以下面會出現一些有關於這些程式語言的資源。
+解決問題：
+- [如何找到解法](https://www.topcoder.com/thrive/articles/How%20To%20Find%20a%20Solution)
+- [如何解析 Topcoder 中的題目描述](https://www.topcoder.com/thrive/articles/How%20To%20Dissect%20a%20Topcoder%20Problem%20Statement%20Content)
 
-## 書單(Book List)
+面試白板題影片：
+- [IDeserve (88 部影片)](https://www.youtube.com/playlist?list=PLamzFoFxwoNjPfxzaWqs7cZGsPYy0x_gI)
+- [Tushar Roy (5 個播放清單)](https://www.youtube.com/user/tusharroy2525/playlists?shelf_id=2&view=50&sort=dd)
+    - 對於概覽題目解法非常有幫助
+- [Nick White - LeetCode Solutions (187 部影片)](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
+    - 影片中的解法和程式碼非常好
+    - 在短時間內就能看很多部
+- [FisherCoder - LeetCode Solutions](https://youtube.com/FisherCoder)
 
-為了節省你的時間，以下是已經縮減過的書單。
+白板題網站：
+- [LeetCode](https://leetcode.com/)
+    - 我最喜歡的白板題網站，非常值得在準備面試的 1-2 個月間訂閱。
+    - 看 Nick White 以及 FisherCoder 有關概覽程式碼的影片。
+- [HackerRank](https://www.hackerrank.com/)
+- [TopCoder](https://www.topcoder.com/)
+- [Codeforces](https://codeforces.com/)
+- [Codility](https://codility.com/programmers/)
+- [Geeks for Geeks](https://practice.geeksforgeeks.org/explore/?page=1)
+- [AlgoExpert](https://www.algoexpert.io/product)
+    - Google 工程師建立的平台，也是個能磨練你技能的好平台。
+- [Project Euler](https://projecteuler.net/)
+    - 非常數學，不太適合準備白板題面試。
 
-### 面試準備(Interview Prep)
+## 踏上學習旅程
 
-- [ ] [Programming Interviews Exposed: Coding Your Way Through the Interview, 4th Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
-    - 附有解答 in C++ and Java
-    - 內含很棒的coding面試解密
-    - 不會很困難，大多問題都比面試中的還簡單(從我讀過的)
-- [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
-    - 附有解答 in Java
+廢話不多說，讓我們開始學習吧！
 
-### 如果你有額外的時間(If you have tons of extra time):
-
-選擇以下其中一個:
-
-- [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-- [ ] [Elements of Programming Interviews in Python](https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/)
-- [ ] 程式面試精華 (Java版)
-    - [book](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
-    - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
-
-### 程式語言精進
-
-***面試時你需要選擇一種程式語言(詳如上述)***
-
-以下是一些我對程式語言的建議。這邊沒有所有種類程式語言的資源，所以歡迎補充。
-
-如果你讀過以下其中一本，你應該已經具備了所有解決coding問題所需要的資料結構與演算法的知識。除非你想要複習，否則**你可以跳過這個計畫中所有的教學影片**。
-
-[額外程式語言精進資源](programming-language-resources.md)
-
-### C++
-
-我沒讀過這兩本書，但他們頗受好評。作者是Sedgewick，他超讚的!
-
-- [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
-- [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
-
-如果你有更好的C++書籍，請告訴我。我正在蒐集全面性的資源。
-
-## Java
-
-- [ ] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - 在Coursera平台上有影片、書籍內容、(以及Sedgewick!)
-        - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
-        - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
-
-或者:
-
-- [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-    - 作者:Goodrich、Tamassia、Goldwasser
-    - 被作為UC Berkeley資工系入門課程的補充教材
-    - 看看下面我對這本書的Python版的書評。兩本書都包含了相同的主題。
-
-### Python
-
-- [ ] [Data Structures and Algorithms in Python](https://www.amazon.com/Structures-Algorithms-Python-Michael-Goodrich/dp/1118290275/)
-    - 作者:Goodrich、Tamassia、Goldwasser
-    - 我超愛這本書。他包含了所有東西。
-    - 很Python的Code!
-    - 我的書評: https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
-
-
- ## 先備知識
-
-- [ ] **學習C**
-    - C語言無所不在。在你學習的過程中，幾乎任何一本書、課程，或者影片中你都能看到他的身影。
-    - [ ] [C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - 這本書還滿輕薄的，但他能讓你有初步對於C語言的認識。看著這本書並且練習，你能更快地掌握C語言。理解C語言能讓你更了解程式的運作以及內部記憶體配置。
-        - [answers to questions](https://github.com/lekkas/c-algorithms)
-- [ ] **一個程式在電腦中是如何運作的:**
-    - [ ] [How CPU executes a program (video)](https://www.youtube.com/watch?v=XM4lGflQFvA)
-    - [ ] [How computers calculate - ALU (video)](https://youtu.be/1I5ZMmrOfnA)
-    - [ ] [Registers and RAM (video)](https://youtu.be/fpnE6UAfbtU)
-    - [ ] [The Central Processing Unit (CPU) (video)](https://youtu.be/FZGugFqdr60)
-    - [ ] [Instructions and Programs (video)](https://youtu.be/zltgXvg6r3k)
+但別忘了邊學習邊進行白板題練習！
 
 ## 演算法複雜度(Algorithmic complexity) / Big-O / 漸進分析(Asymptotic analysis)
 
