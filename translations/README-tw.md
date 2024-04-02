@@ -585,87 +585,87 @@
         - 所需空間 = (陣列容量，>=n) * 元素所需大小，但就算結果為 2n，實際上仍算成 O(n)
 
 - ### Linked Lists
-    - [ ] Linked Lists背後原理:
-        - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
-        - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
-        - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
-        - [ ] [[Review] Linked lists in 4 minutes (video)](https://youtu.be/F8AbOfQwl1c)
-    - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-            - 沒有完整的code，裡面只包含了用struct實作節點的方式以及其記憶體配置。
+    - [ ] 原理:
+        - [ ] [Linked Lists CS50 Harvard University](https://www.youtube.com/watch?v=2T-A_GFuoTo&t=650s) - this builds the intuition.
+        - [ ] [Singly Linked Lists (影片)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
+        - [ ] [CS 61B - Linked Lists 1 (影片)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
+        - [ ] [CS 61B - Linked Lists 2 (影片)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
+        - [ ] [[Review] Linked lists in 4 minutes (影片)](https://youtu.be/F8AbOfQwl1c)
+    - [ ] [C Code (影片)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
+            - 不用看完整部影片，只要看 Node struct 與記憶體分配的部分
     - [ ] Linked List vs 陣列:
-        - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
-        - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
-    - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] 小心!: 你需要一些關於指標的指標(Pointer to pointer)的知識:
+        - [Core Linked Lists Vs Arrays (影片)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
+        - [In The Real World Linked Lists Vs Arrays (影片)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
+    - [ ] [Why you should avoid linked lists (影片)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+    - [ ] 小心!: 你需要一些關於指標的指標 (Pointer to pointer) 的知識:
         (當你回傳一個指標到函式，這個動作可能會改變指標所指向的地址)
-        這個頁面僅提供基本對於指標的指標的認識。我不推薦這個遍歷linked list的方式，因為他用的方式太過神奇，所以可讀性以及維護性並不好。
+        這個頁面僅提供對於指標的指標的基本認識。我不推薦這個遍歷 linked list的方式，因為他用的方式太過神奇，所以可讀性以及維護性並不好。
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] 實作Linked list (我做了有末端指標(tail pointer)的版本以及無末端指標的版本):
-        - [ ] size() - 回傳linked list裡面的元素個數
-        - [ ] empty() - 回傳型態:bool，如果linked list為空，回傳true
-        - [ ] value_at(index) - 回傳索引值為index的元素的數值，第一個元素索引值為0，以此類推
-        - [ ] push_front(value) - 從linked list的起始點加入新的元素
+    - [ ] 實作 linked list (我做了有 tail pointer 的版本以及無 tail pointer 的版本):
+        - [ ] size() - 回傳 linked list 裡面的元素個數
+        - [ ] empty() - 回傳型態: bool，如果 linked list 為空，回傳 true
+        - [ ] value_at(index) - 回傳索引值為 index 的元素的數值，第一個元素索引值為 0，以此類推
+        - [ ] push_front(value) - 從 linked list 的起始點加入新的元素
         - [ ] pop_front() - 移除第一個元素，並且回傳該元素的數值
-        - [ ] push_back(value) - 在linked list末端加入新元素
+        - [ ] push_back(value) - 在 linked list 末端加入新元素
         - [ ] pop_back() - 移除最後一個元素，並且回傳該元素的數值
         - [ ] front() - 回傳第一個元素的數值
         - [ ] back() - 回傳最後一個元素的數值
         - [ ] insert(index, value) - 把新元素插入到該索引值，而新元素指向原本在該索引值的元素。
         - [ ] erase(index) - 刪除該索引值的元素(節點)
-        - [ ] value_n_from_end(n) - 回傳從末端開始計算的第n個元素的數值
-        - [ ] reverse() - 反轉該linked list
-        - [ ] remove_value(value) - 刪除第一個為該數值的元素(意即7 2 2 1，要刪除2的話，只刪除index:1的那個2)
-    - [ ] 雙向linked List
+        - [ ] value_n_from_end(n) - 回傳從末端開始計算的第 n 個元素的數值
+        - [ ] reverse() - 反轉該 linked list
+        - [ ] remove_value(value) - 刪除第一個為該數值的元素(意即 7 2 2 1，要刪除 2 的話，只刪除 index:1 的那個 2)
+    - [ ] Doubly-linked List
         - [背後原理(影片)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - 不需實作
 
-- ### Stack(堆疊)
-    - [ ] [Stacks(影片)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [使用Stacks先進後出(Last-In First-Out)(影片)]()
-    - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
+- ### Stack
+    - [ ] [Stacks (影片)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
+    - [ ] [[Review] Stacks in 3 minutes (影片)](https://youtu.be/KcT3aVgrrpU)
     - [ ] 無須實作，可以用陣列實作，但這樣太過簡單了。
 
-- ### Queue(佇列)
-    - [ ] [使用Queues(先進先出)First-In First-Out(影片)]()
-    - [ ] [Queue(影片)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+- ### Queue
+    - [ ] [Queue (影片)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [Priority Queues(影片)]()
-    - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
-    - [ ] 使用linked list實作，包含末端指標(tail pointer):
-        - enqueue(value) - 在queue末端加入元素
-        - dequeue() - 刪除當時queue中最早進入的元素(意即queue中第一個元素)，並且回傳該元素的值。
+    - [ ] [[Review] Queues in 3 minutes (影片)](https://youtu.be/D6gu-_tmEpQ)
+    - [ ] 使用 linked list 實作，包含 tail pointer:
+        - enqueue(value) - 在 queue 末端加入元素
+        - dequeue() - 刪除當時 queue 中最早進入的元素(意即 queue 中第一個元素)，並且回傳該元素的值。
+        - empty()
+    - [ ] 使用固定長度陣列實作:
+        - enqueue(value) - 在末端空位新增於元素
+        - dequeue() - 回傳數值，移除最舊的元素
         - empty()
         - full()
     - [ ] 複雜度:
-        - 
-        - enqueue: O(1) (平均情況，無論對於用linked list或陣列實作的方法)
-        - dequeue: O(1) (linked list與陣列)
-        - empty: O(1) (linked list與陣列)
+        - 用 linked list 實作，enqueue 與 dequeue 最糟的複雜度會是 O(n)。因為用 next 指到最後一個元素，導致每次 dequeue 都需要遍歷整個 queue。
+        - enqueue: O(1) (amortized，無論對於用 linked list 或陣列實作的方法[probing])
+        - dequeue: O(1) (linked list 與陣列)
+        - empty: O(1) (linked list 與陣列)
 
-- ### Hash table(雜湊表)
+- ### Hash table
     - [ ] 影片:
         - [ ] [Hashing with Chaining (影片))](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
         - [ ] [Table Doubling, Karp-Rabin (影片)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
         - [ ] [Open Addressing, Cryptographic Hashing (影片)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
         - [ ] [PyCon 2010: The Mighty Dictionary (影片)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
+        - [ ] [PyCon 2017: The Dictionary Even Mightier (影片)](https://www.youtube.com/watch?v=66P5FMkWoVU)
         - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (影片)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [(Advanced) Perfect hashing (影片)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
-        - [ ] [[Review] Hash tables in 4 minutes (video)](https://youtu.be/knV86FlSXJ8)
-    - [ ] 線上開放式課程:
-        - [ ] [Understanding Hash Functions (影片)]()
-        - [ ] [Using Hash Tables (影片)]()
-        - [ ] [Supporting Hashing (影片)]()
-        - [ ] [Language Support Hash Tables (影片)]()
-        - [ ] [Core Hash Tables (影片)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
-        - [ ] [Data Structures (影片)](https://www.coursera.org/learn/data-structures/home/week/3)
-        - [ ] [Phone Book Problem (影片)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
-        - [ ] 分散式雜湊表(distributed hash table):
-            - [Instant Uploads And Storage Optimization In Dropbox (影片)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
-            - [Distributed Hash Tables (影片)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
+        - [ ] [[Review] Hash tables in 4 minutes (影片)](https://youtu.be/knV86FlSXJ8)
 
-    - [ ] 實作雜湊表(用陣列以及線性探測(linear probing))
-        - hash(k, m) - m:雜湊表的大小
-        - add(key, value) - 如果key已經存在，則更新該key的value
+    - [ ] 線上開放式課程:
+        - [ ] [Core Hash Tables (影片)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP)
+        - [ ] [Data Structures (影片)](https://www.coursera.org/learn/data-structures/home/week/4)
+        - [ ] [Phone Book Problem (影片)](https://www.coursera.org/lecture/data-structures/phone-book-problem-NYZZP)
+        - [ ] distributed hash table:
+            - [Instant Uploads And Storage Optimization In Dropbox (影片)](https://www.coursera.org/lecture/data-structures/instant-uploads-and-storage-optimization-in-dropbox-DvaIb)
+            - [Distributed Hash Tables (影片)](https://www.coursera.org/lecture/data-structures/distributed-hash-tables-tvH8H)
+
+    - [ ] 實作 hash table (用陣列以及線性探測 (linear probing))
+        - hash(k, m) - m 是 hash table 的大小
+        - add(key, value) - 如果 key 已經存在，則更新該 key 的 value
         - exists(key)
         - get(key)
         - remove(key)
