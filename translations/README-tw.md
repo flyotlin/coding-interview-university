@@ -71,11 +71,11 @@
 * 耐心
 * 時間
 
-請注意這是一份**軟體工程**的讀書計畫，而不是前端工程或全端開發的讀書計畫。針對後者的職涯路徑，網路上有許多參考資源（請參考 https://roadmap.sh/）。
+請注意這是一份**軟體工程**的讀書計畫，而不是前端工程或全端開發的讀書計畫。針對後者的職涯路徑，網路上有許多參考資源（請參考 https://roadmap.sh/ ）
 
 雖然大學資工系（電腦科學）有許多課程要學習，但你只需要理解其中 75% 的內容便足夠應付面試，而這份讀書計畫則恰巧包含了這 75% 的內容。
 
-若你需要完整的電腦科學自學課程，可以參考 Kamran Ahmed 的電腦科學 Roadmap：https://roadmap.sh/computer-science，我的讀書計畫中所提到的資源也在這份 Roadmap 中。
+若你需要完整的電腦科學自學課程，可以參考 Kamran Ahmed 的電腦科學 [Roadmap](https://roadmap.sh/computer-science)，我的讀書計畫中所提到的資源也都在這份 Roadmap 中。
 
 ---
 
@@ -99,9 +99,9 @@
 
 ### 學習主題
 
-- [演算法複雜度 / Big-O / 漸進分析](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
-    - [Arrays](#arrays)
+- [演算法複雜度 / Big-O / 漸進分析](#演算法複雜度--big-o--漸進分析)
+- [資料結構](#資料結構)
+    - [陣列](#陣列)
     - [Linked Lists](#linked-lists)
     - [Stack](#stack)
     - [Queue](#queue)
@@ -528,65 +528,61 @@
 
 但別忘了邊學習邊進行白板題練習！
 
-## 演算法複雜度(Algorithmic complexity) / Big-O / 漸進分析(Asymptotic analysis)
+## 演算法複雜度 / Big-O / 漸進分析
 
-- 沒有任何東西能實作
+- 看影片與做筆記，沒有任何東西能實作
 - 這個主題有許多影片，看到你真正了解他為止。你可以隨時回來複習他。
-- 如果這些課程太過數學的話，你可以去看看最下面離散數學的影片，他能讓你更了解這些數學背後的來源以及原理。
-- [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
-- [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
-- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] Skiena:
-    - [影片](https://www.youtube.com/watch?v=gSyDMtdPNpU&index=2&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
-    - [投影片](http://www3.cs.stonybrook.edu/~algorith/video-lectures/2007/lecture2.pdf)
-- [ ] [A Gentle Introduction to Algorithm Complexity Analysis](http://discrete.gr/complexity/)
-- [ ] [Orders of Growth (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/orders-of-growth-6PKkX)
-- [ ] [Asymptotics (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/asymptotics-bXAtM)
-- [ ] [UC Berkeley Big O (video)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
-- [ ] [UC Berkeley Big Omega (video)](https://archive.org/details/ucberkeley_webcast_ca3e7UVmeUc)
-- [ ] [Amortized Analysis (video)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
-- [ ] [Illustrating "Big O" (video)](https://www.coursera.org/lecture/algorithmic-thinking-1/illustrating-big-o-YVqzv)
+- 無法完全理解所有背後的數學原理也沒關係
+- 你只需要理解如何以 Big-O 表示演算法的複雜度即可
+- [ ] [Harvard CS50 - Asymptotic Notation (影片)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
+- [ ] [Big O Notations (general quick tutorial) (影片)](https://www.youtube.com/watch?v=V6mKVRU1evU)
+- [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (影片)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
+- [ ] [Skiena (影片)](https://www.youtube.com/watch?v=z1mkCe3kVUA)
+- [ ] [UC Berkeley Big O (影片)](https://archive.org/details/ucberkeley_webcast_VIS4YDpuP98)
+- [ ] [Amortized Analysis (影片)](https://www.youtube.com/watch?v=B3SpQZaAZP4&index=10&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
 - [ ] TopCoder (includes recurrence relations and master theorem):
-    - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
-    - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
+    - [Computational Complexity: Section 1](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
+    - [Computational Complexity: Section 2](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20two)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
-- [ ] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
+- [ ] [[Review] Analyzing Algorithms (播放清單) in 18 minutes (影片)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
+
+嗯，這些應該夠多了。
+
+「Cracking the Coding Interview」裡面也有一個關於 Big-O 與複雜度的章節，章節的最後還附有練習題。題目與辨識演算法複雜度有關，是個很棒的複習與測驗。
 
 ## 資料結構
 - ### 陣列
-    - 實作一個可以自動調整大小的陣列(動態陣列vector)
-    - [ ] (動態)陣列背後原理:
-        - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-        - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-        - [Basic Arrays (video)]()
-        - [Multi-dim (video)]()
-        - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
-        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+    - [ ] 關於陣列:
+        - [Arrays CS50 Harvard University](https://www.youtube.com/watch?v=tI_tIZFyKBw&t=3009s)
+        - [Arrays (影片)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+        - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (影片)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE)（從 15 分 32 秒開始觀看）
+        - [Dynamic Arrays (影片)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+        - [Jagged Arrays (影片)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] 實作動態陣列(可變、可動態調整大小的陣列)
-        - [ ] 練習在程式中用陣列以及指標，透過計算指標而存取該內容，而不是直接用索引。
-        - [ ] 直接動態生成一個新的陣列
-            - 可以生成一個int型別的陣列，但不要使用語言提供的功能
-            - 從16，或者更大的數開始寫，像是2的次方 - 16、32、64、128。
+        - [ ] 練習在程式中用陣列以及指標，透過指標運算索引，而不是直接用索引。
+        - [ ] 動態分配一個新的陣列
+            - 可以分配一個 int 型別的陣列，但不要使用語言提供的功能
+            - 從 16，或者更大的數開始寫，像是 2 的次方 - 16、32、64、128。
         - [ ] size() - 陣列中元素個數
         - [ ] capacity() - 陣列能存的最大元素個數
         - [ ] is_empty()
-        - [ ] at(index) - 傳回該索引值的元素，附有邊界檢查(boundary check)
+        - [ ] at(index) - 傳回該索引值的元素，並在超出邊界時提出警告
         - [ ] push(item)
         - [ ] insert(index, item) - 把元素插入該索引值，把原本在該索引值的元素往右邊移動。
         - [ ] prepend(item) - 可以把元素插入索引值為0的地方。
         - [ ] pop() - 移除陣列中最後一個元素，並回傳該元素的值。
         - [ ] delete(index) - 刪除在該索引值的元素，並且把右邊剩下元素全部往左移。
-        - [ ] remove(item) - 從陣列中尋找該數值，並且移除他(就算陣列中數個地方都有這個數值)。
-        - [ ] find(item) - 從陣列中尋找該數值，並且傳回最前面找到該數值的索引值，如果沒有則傳回-1。
+        - [ ] remove(item) - 從陣列中尋找該數值，並且移除他（就算陣列中數個地方都有這個數值）。
+        - [ ] find(item) - 從陣列中尋找該數值，並且傳回最前面找到該數值的索引值，如果沒有則傳回 -1。
         - [ ] resize(nex_capacity) // private function
-            - 當陣列已經用盡了所有容量後，把陣列的容量*2。
-            - 如果移除掉一個元素後，陣列實際大小是最大容量的1/4，則把陣列容量減半。
-        - [ ] 時間複雜度
-            - O(1) 在陣列末端插入/刪除元素
-            - O(n) 在任何地方插入/刪除元素
-        - [ ] 空間複雜度
-            - 在記憶體中的存放位置是連續的，這種儲存方式有助於存取的性能。
-            - 所需空間 = (陣列容量，>=n) * 元素所需大小，但就算結果為2n，實際上仍算成O(n)
+            - 當陣列已經用盡了所有容量後，把陣列的容量 *2。
+            - 如果移除掉一個元素後，陣列實際大小是最大容量的 1/4，則把陣列容量減半。
+    - [ ] 時間複雜度
+        - O(1) 在陣列末端插入/刪除元素
+        - O(n) 在任何地方插入/刪除元素
+    - [ ] 空間複雜度
+        - 在記憶體中的存放位置是連續的，這種儲存方式有助於存取的性能。
+        - 所需空間 = (陣列容量，>=n) * 元素所需大小，但就算結果為 2n，實際上仍算成 O(n)
 
 - ### Linked Lists
     - [ ] Linked Lists背後原理:
